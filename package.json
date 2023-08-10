@@ -1,0 +1,23 @@
+{
+  "name": "new-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "new-sass": "sass -w css/create.scss css/create.css",
+    "ba-sass": "sass -w css/ba.scss css/ba.css",
+    "ea-sass": "sass -w css/ea.scss css/ea.css",
+    "mc-sass": "sass -w css/ma.scss css/ma.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "sass": "^1.64.2",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.8"
+  }
+}
